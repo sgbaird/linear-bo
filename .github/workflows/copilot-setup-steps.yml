@@ -24,5 +24,8 @@ jobs:
       - name: Set up Python
         run: uv python install 3.12
 
+      - name: Create virtual environment
+        run: uv venv # NOTE: we don't need to explicitly activate the environment
+
       - name: Install deps
         run: uv pip install -e .
