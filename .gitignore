@@ -1,5 +1,12 @@
 data/
 
+# Extracted paper files
+*.tex
+*.bbl
+*.sty
+*.pdf
+00README.json
+
 # Artifacts
 outputs/
 multirun/
