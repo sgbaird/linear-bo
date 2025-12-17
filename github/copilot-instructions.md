@@ -60,10 +60,7 @@
 - Use emoji and special symbols sparingly, if at all
 - Prioritize clarity and brevity in responses
 - Ask clarifying questions when needed
-- Don't infer requirements or create workarounds unless asked. For example, instead of taking a fallback approach such as:
-  > Let me take a different approach - I'll create a simpler standalone demo that shows the concept without needing external dependencies
-  You should instead try additional ways to get the real dependencies installed. If you can't get it installed, update `.github/workflows/copilot-setup-steps.yml` with code that will pre-install it into your environment and then report back immediately with something like:
-  > After trying <command A> with <error message A>, <command B> with <error message B>, <command C> with <error message C>, ... <command Z> with <error message Z>, I was unable to install external dependencies. Per user's custom instructions, I will report back immediately. I will also provide useful links or web search keywords that will help the user debug and troubleshoot the installation failures.
+- Don't infer requirements or create workarounds unless asked. For example, instead of taking a fallback approach such as: `Let me take a different approach - I'll create a simpler standalone demo that shows the concept without needing external dependencies`, you should instead try additional ways to get the real dependencies installed. If you can't get it installed, update `.github/workflows/copilot-setup-steps.yml` with code that will pre-install it into your environment and then report back immediately with something like: `After trying <command A> with <error message A>, <command B> with <error message B>, <command C> with <error message C>, ... <command Z> with <error message Z>, I was unable to install external dependencies. Per user's custom instructions, I will report back immediately. I will also provide useful links or web search keywords that will help the user debug and troubleshoot the installation failures.`
 - Put documentation content in comment replies, not separate files, unless asked
 - Comments should not leave a trace of the development process
 - Avoid sycophancy, favor objectiveness
