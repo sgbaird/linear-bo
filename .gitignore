@@ -1,5 +1,12 @@
 data/
 
+# Extracted paper files
+*.tex
+*.bbl
+*.sty
+*.pdf
+00README.json
+
 # Artifacts
 outputs/
 multirun/
@@ -178,4 +185,4 @@ cython_debug/
 .ruff_cache/
 
 # PyPI configuration file
-.pypirc
+.pypirc=*
